@@ -3,6 +3,7 @@ body {
 }
 
 header {
+    display: flex;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -11,13 +12,12 @@ header {
 }
 
 header, h1 {
-    display: inline-flex;
-    font-size: 48px;
+  font-size: 48px;
 }
 
 nav, ul {
     list-style-type: none;
-    display: inline-flex;
+    display: flex-end;
     margin-left: 25px;
     padding-top: 15px;
     margin-right: 20px;
@@ -25,19 +25,31 @@ nav, ul {
     font-size: 20px;
 }
 
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
 ul {
     text-align: right;
-}
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+  }
+
 
 a {
     text-decoration: none;
     color:rgb(80, 255, 255);
     background-color: darkcyan;
     padding: 10px;
+    display: block;
 }
 
 li {
     border: 2px solid white;
+    justify-content: space-between;
 }
 
 nav, ul, li {
@@ -51,6 +63,7 @@ nav, ul, li {
 
 section {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #image1 {
@@ -60,6 +73,7 @@ section {
     margin: 20px;
     z-index: 1;
     flex-grow: 1;
+    width: fit-content;
 }
 
 #image2 {
@@ -78,8 +92,24 @@ section {
     z-index: 1;
 }
 
-.work-title {
+.work-title1 {
     left: 10px;
+    position: absolute;
+    color: #008b8b;
+    text-decoration: underline;
+    margin-top: 10px;
+    border-radius: solid;
+    border: dashed;
+    padding: 0 5px;
+    box-shadow: black;
+    background-color: #e4d5c1;
+    font-size: larger;
+    font-style: bold;
+    font-weight: bold;
+}
+
+.work-title2 {
+    left: 300px;
     position: absolute;
     color: #008b8b;
     text-decoration: underline;
@@ -96,7 +126,7 @@ section {
 
 .row {
     display: flex;
-    flex-grow: 1;
+    flex-wrap: wrap;
 
 }
 
