@@ -19,12 +19,27 @@
     <ul>
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#MyWork">Portfolio</a></li>
-        <li><a href="#Services">Services</a></li>
         <li><a href="#ContactMe">Get in Touch</a></li>
     </ul>
 </nav>
   </header>
-<section>
+<section id="about-me">
+    <h2 id="about-me-header">About Me</h2>
+    <div>
+<img id="headshot" src="C:\Users\adria\AdrianSzonyiPortfolio\Images\1575168097728.jfif" alt="Image of Adrian Szonyi"/>
+</div>
+<div>
+<p id="about-me-description">I currently manage a team of Account Managers at a video tech company and I'm studying to become a front-end developer.
+    <br><br>
+    I have created a hadnful of useful websites that you can check out below. I am looking for freelance work so please reach out using the form below!
+    <br><br>
+    I love playing tennis and reading history books, check out what I'm currently reading below.
+    <br>
+</p>
+</div>
+</section>
+
+<section id="MyWork">
     <h2 class="work-title1">Pre-work Assignment</h2>
     <div class="row">
     <figure>
@@ -33,14 +48,40 @@
         <h2 class="work-title1">Horiseon Website</h2>
     </div>
     <figure>
-        <img id="image2" src="C:\Users\adria\AdrianSzonyiPortfolio\Images\meg-boulden-3ojU4UXDydA-unsplash.jpg"/>
+        <img id="image2" src="C:\Users\adria\AdrianSzonyiPortfolio\Images\meg-boulden-3ojU4UXDydA-unsplash.jpg" alt="iamge of some pens and a laptop"/>
     </figure>
         <h2 class="work-title2">Second Horiseon Website</h2>
     <figure>
-        <img id="image3" src="C:\Users\adria\AdrianSzonyiPortfolio\Images\meg-boulden-3ojU4UXDydA-unsplash.jpg"/>
+        <img id="image3" src="C:\Users\adria\AdrianSzonyiPortfolio\Images\meg-boulden-3ojU4UXDydA-unsplash.jpg" alt="iamge of some pens and a laptop"/>
     </figure>
 </section>
 
+<footer>
+    <h3 id="ContactMe">Contact Form</h3>
+    <div class="container">
+      <form>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Your name..">
+    
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">New Zealand</option>
+          <option value="usa">France</option>
+          <option value="usa">USA</option>
+          <option value="usa">Germany</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>    
+</footer>
 
   </body>
   </html>
