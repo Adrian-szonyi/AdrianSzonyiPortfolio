@@ -27,5 +27,5 @@ The second image in the second row was created by Meg Boulden [link-to-unsplash]
 
 ## Website Image
 
-![Image of the Horiseon website](.\Assets\Images\adrian-szonyi.github.io_AdrianSzonyiPortfolio_develop_index.html.png)
+![Image of the Horiseon website](./Assets/Images/adrian-szonyi.github.io_AdrianSzonyiPortfolio_develop_index.html.png)
 
