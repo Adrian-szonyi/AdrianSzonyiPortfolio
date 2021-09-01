@@ -7,6 +7,8 @@ html, body
     overflow-x: hidden; 
 }
 
+/* Added above as original webpage was larger than content displayed*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,7 +17,6 @@ html, body
 
 body {
     background-color: #bab8b15e;
-    width: 100%;
 }
 
 header {
@@ -40,6 +41,9 @@ nav li a:hover {
     text-decoration: underline;
 }
 
+
+/*moving the nav list to left align in a column for mobile users  */
+
 @media only screen and (min-width: 320px) and (max-width: 768px) {
      ul, li {
       flex-direction: column;
@@ -57,7 +61,7 @@ nav ul {
     list-style-type: none;
     padding-top: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 nav {
@@ -80,7 +84,6 @@ a {
 
 li {
     display: list-item;
-    text-align: -webkit-match-parent;
 }
 
 
@@ -118,7 +121,7 @@ p {
     margin-left: 10px;
     max-width: 250px;
     max-height: 166px;
-    margin-top: 42px;
+    margin-top: 14px;
 }
 
 section {
@@ -133,12 +136,10 @@ section {
     width: 100%;
 }
 
-#image2 {
+.otherimages {
     max-width: 400px;
-}
-
-#image3 {
-    max-width: 400px;
+    position: relative;
+    left: -20px;
 }
 
 #Horiseon {
@@ -170,6 +171,45 @@ section h2:hover{
     flex-wrap: wrap;
 }
 
+.Books {
+    display: inline-flex;
+}
+#book1, #book2, #book3 {
+    max-height: 200px;
+    margin: 10px;
+} 
+
+/* hover grow effect for book images */
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.Books {
+margin-top: 20px;
+
+}
+.BookHeading {
+  color: #704c37;
+  margin-top: 100px;
+  padding: 37px 20px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+ #Contact-Header {
+  color: #704c37;
+  margin-top: 100px;
+  padding: 37px 20px;
+  font-size: 27px;
+  font-weight: bold;
+ }
+
+ footer {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 10px;
@@ -177,12 +217,6 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 5px;
     margin-bottom: 15px;
-  }
-
-  footer {
-    display: flex;
-    margin: auto;
-    flex-direction: column;
   }
   
   input[type=submit] {
@@ -201,38 +235,7 @@ input[type=text], select, textarea {
     width: 100%;
     display: flex;
   }
-  .Books {
-      display: inline-flex;
-  }
-  #book1, #book2, #book3 {
-      max-height: 200px;
-      margin: 10px;
-  } 
 
-  .grow { transition: all .2s ease-in-out; }
-  .grow:hover { transform: scale(1.1); }
-
-  .Books {
-margin-top: 20px;
-
-  }
-  .BookHeading {
-    color: #704c37;
-    margin-top: 100px;
-    padding: 37px 20px;
-    font-size: 27px;
-    font-weight: bold;
-  }
-
-   #Contact-Header {
-    color: #704c37;
-    margin-top: 100px;
-    padding: 37px 20px;
-    font-size: 27px;
-    font-weight: bold;
-    position: relative;
-    left: 400px;
-   }
 .footer-p {
 max-height: 50px;
 }
