@@ -15,9 +15,6 @@ html, body
     margin: 0;
 }
 
-body {
-    background-color: #bab8b15e;
-}
 
 header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -74,51 +71,57 @@ ul {
     max-height: 10px;
     display: flex;
   }
-
-
-a {
-    text-decoration: none;
-    color: WHITE;
-    padding: 10px;
+#project {
+font-weight: bolder;
+text-decoration: underline;
 }
 
 li {
+    text-decoration: none;
+    color: WHITE;
+    padding: 10px;
     display: list-item;
 }
 
+a {
+    text-decoration: underline;
+    font-weight: bold;
+}
 
 #about-me {
     display: flex;
     flex-wrap: wrap;
     margin: 30px, 10px;
     top: 100px;
-    background-color: #3A3C35;
     align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#about-me-header {    
-    color: #ad8872;
-    margin-top: 100px;
-    padding: 37px 20px;
-    font-size: 52px;
-    font-weight: bold;
+.footerimage {
+    max-width: 50px;
+    max-height: 50px;
 }
 
+#socials {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-flex;
+    margin-top: 30px;
+}
 
-p {
+#about-me-description {
     margin: 20px;
-    color: #3a3c35;
     text-align: left;
     max-width: 650px;
     font-size: 18px;
-    background-color: #bda98d;
-    color: white;
     padding: 4px;
-
+    text-align: center;
+    justify-content: center;
 }
 
 #headshot {
-    margin-left: 10px;
     max-width: 250px;
     max-height: 166px;
     margin-top: 14px;
@@ -132,15 +135,31 @@ section {
 
 #image1 {
     position: relative;
-    left: -21px;
-    width: 100%;
+    width: fit-content;
+    padding-right: 10px;
+    margin-right: 0;
+    margin-left: auto;
+    display: block;
 }
 
-.otherimages {
-    max-width: 400px;
+#image3 {
     position: relative;
-    left: -20px;
+    width: fit-content;
+    padding-right: 10px;
+    margin-right: 0;
+    margin-left: auto;
+    display: block;
 }
+
+#image2 {
+    position: relative;
+    width: fit-content;
+    padding-right: 10px;
+    margin-left: 0;
+    margin-right: auto;
+    display: block;
+}
+
 
 #Horiseon {
 position: relative;
@@ -152,11 +171,19 @@ left: 0px;
     flex-wrap: wrap;
 }
 
-.title {
-    color: #704C37;
-    font-size: larger;
-    font-weight: bold;
+#funnighttext {
+    color:rgb(50, 50, 107);
+    margin-top: auto;
+
 }
+
+#funnight {
+    align-content: center;
+    text-align: webkit-left;
+    margin: auto;
+    padding: 10px;
+}
+
 
 section h2:hover{
     text-decoration: underline;
@@ -168,7 +195,12 @@ section h2:hover{
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    margin: 20px;
+    border-width: medium;
+    border: solid, 5px;
+    border-radius: 1rem;
+    border-color: rgb(50, 50, 107);
+    background-color: rgba(80, 74, 74, 0.123);
 }
 
 .Books {
