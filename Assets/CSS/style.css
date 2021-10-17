@@ -50,6 +50,18 @@ nav li a:hover {
   }
 }
 
+
+@media only screen and (min-width: 100px) and (max-width: 850px) {
+    .row, .row2, #funnight {
+     flex-direction: column;
+     flex-wrap: wrap;
+     margin-top: 2px;
+     /* margin-top: 30px;
+     margin-right: 80px; */
+ }
+}
+
+
 header h1 {
   font-size: 48px;
   padding: 5px;
@@ -126,6 +138,7 @@ a {
 #about-me {
     display: flex;
     font-family: 'Merriweather',serif;
+    font-size: medium;
     flex-wrap: wrap;
     top: 100px;
     align-items: center;
@@ -160,6 +173,7 @@ a {
     margin: 20px;
     font-family: 'Merriweather',serif;
     text-align: left;
+    font-size: medium;
     max-width: 650px;
     font-size: 18px;
     padding: 4px;
@@ -181,6 +195,7 @@ section {
     display: flex;
     font-family: 'Merriweather',serif;
     flex-wrap: wrap;
+    font-size: medium;
 }
 
 
@@ -221,19 +236,21 @@ left: 0px;
 .row2 {
     display: inline-flex;
     font-family: 'Merriweather',serif;
+    font-size: medium;
 }
 
 #funnighttext {
     color:rgb(50, 50, 107);
     margin-top: auto;
+    font-size: medium;
 
 }
 
 #funnight {
     align-content: center;
     text-align: webkit-left;
-    margin: auto;
     padding: 10px;
+    margin-top: 40px;
 }
 
 
@@ -254,6 +271,7 @@ img {
     font-family: 'Merriweather',serif;
     margin: 20px;
     border-width: medium;
+    font-size: medium;
     border: solid, 5px;
     border-radius: 1rem;
     border-color: rgb(50, 50, 107);
@@ -307,6 +325,7 @@ h3 {
     text-align: center;
     font-family: 'Merriweather',serif;
     margin-top: 14px;
+    font-size: medium;
 }
 
 #footerimage3 {
