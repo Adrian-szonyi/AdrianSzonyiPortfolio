@@ -20,12 +20,15 @@ You can click on the links in the nav bar and it will redirect you to the releva
 ## Credits
 
 I have sourced images from [Pexels](https://www.pexels.com/) a free stock imagery library. Credit to the following image creators:
-The cover image was created by Goerge Milton: [Pexels-link](https://www.pexels.com/photo/table-with-laptop-and-photo-camera-7014946/)
-The first image in the second row was created by Kevin Bhagat [link-to-image](https://unsplash.com/photos/zNRITe8NPqY)
-The second image in the second row was created by Meg Boulden [link-to-unsplash](https://unsplash.com/photos/3ojU4UXDydA)
+
+* The cover image was created by Goerge Milton: [Pexels-link](https://www.pexels.com/photo/table-with-laptop-and-photo-camera-7014946/)
+
+* The first image in the second row was created by Kevin Bhagat [link-to-image](https://unsplash.com/photos/zNRITe8NPqY)
+
+* The second image in the second row was created by Meg Boulden [link-to-unsplash](https://unsplash.com/photos/3ojU4UXDydA)
 
 
 ## Website Image
 
-![Image of the Horiseon website](.\Assets\Images\adrian-szonyi.github.io_AdrianSzonyiPortfolio_develop_index.html.png)
+![Image of the Horiseon website](./Assets/Images/adrian-szonyi.github.io_AdrianSzonyiPortfolio_develop_index.html.png)
 
