@@ -17,7 +17,7 @@ html, body
 
 
 header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Merriweather', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
     width: 100%;
     height: 2000px;
@@ -36,12 +36,13 @@ header {
 
 nav li a:hover {
     text-decoration: underline;
+    color: #3a3c35;
 }
 
 
 /*moving the nav list to left align in a column for mobile users  */
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 360px) and (max-width: 780px) {
      ul, li {
       flex-direction: column;
       margin-top: 30px;
@@ -51,6 +52,7 @@ nav li a:hover {
 
 header h1 {
   font-size: 48px;
+  padding: 5px;
   margin-left: 10px;
 }
 
@@ -71,6 +73,7 @@ ul {
     max-height: 10px;
     display: flex;
   }
+
 #project {
 font-weight: bolder;
 text-decoration: underline;
@@ -79,19 +82,51 @@ text-decoration: underline;
 li {
     text-decoration: none;
     color: WHITE;
-    padding: 10px;
+    font-family: 'Merriweather',serif;
+    padding-left: 25px;
+    padding-right: 20px;
     display: list-item;
 }
 
+button {
+    align-items: center;
+    background-color: #566574;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
 a {
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
 }
 
 #about-me {
     display: flex;
+    font-family: 'Merriweather',serif;
     flex-wrap: wrap;
-    margin: 30px, 10px;
     top: 100px;
     align-items: center;
     display: block;
@@ -99,9 +134,19 @@ a {
     margin-right: auto;
 }
 
-.footerimage {
-    max-width: 50px;
-    max-height: 50px;
+#footerimage {
+    max-width: 71px;
+    max-height: 72px;
+    background-color: transparent;
+}
+#footerimage1 {
+    max-width: 40px;
+    max-height: 72px;
+}
+
+#email {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #socials {
@@ -113,22 +158,28 @@ a {
 
 #about-me-description {
     margin: 20px;
+    font-family: 'Merriweather',serif;
     text-align: left;
     max-width: 650px;
     font-size: 18px;
     padding: 4px;
     text-align: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #headshot {
     max-width: 250px;
     max-height: 166px;
     margin-top: 14px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section {
     display: flex;
+    font-family: 'Merriweather',serif;
     flex-wrap: wrap;
 }
 
@@ -140,11 +191,12 @@ section {
     margin-right: 0;
     margin-left: auto;
     display: block;
+    padding: 4px;
 }
 
 #image3 {
     position: relative;
-    width: fit-content;
+    width: 1000px;
     padding-right: 10px;
     margin-right: 0;
     margin-left: auto;
@@ -168,7 +220,7 @@ left: 0px;
 
 .row2 {
     display: inline-flex;
-    flex-wrap: wrap;
+    font-family: 'Merriweather',serif;
 }
 
 #funnighttext {
@@ -189,22 +241,27 @@ section h2:hover{
     text-decoration: underline;
 }
 
+img {
+    padding: 4px;
+}
+
 .title:hover{
     text-decoration: underline;
 }
 
 .row {
     display: flex;
+    font-family: 'Merriweather',serif;
     margin: 20px;
     border-width: medium;
     border: solid, 5px;
     border-radius: 1rem;
     border-color: rgb(50, 50, 107);
-    background-color: rgba(80, 74, 74, 0.123);
 }
 
 .Books {
     display: inline-flex;
+    font-family: 'Merriweather',serif;
 }
 #book1, #book2, #book3 {
     max-height: 200px;
@@ -213,60 +270,51 @@ section h2:hover{
 
 /* hover grow effect for book images */
 
-.grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
+.grow { transition: all .3s ease-in-out; }
+.grow:hover { transform: scale(1.03);
+border-radius: 2rem;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+#resumebutton {
+    margin-left: 28px;
+}
 
 .Books {
 margin-top: 20px;
 
 }
 .BookHeading {
-  color: #704c37;
+  color: rgb(50, 50, 107);
   margin-top: 100px;
   padding: 37px 20px;
   font-size: 27px;
+  font-family: 'Merriweather',serif;
   font-weight: bold;
 }
-
- #Contact-Header {
-  color: #704c37;
-  margin-top: 100px;
-  padding: 37px 20px;
-  font-size: 27px;
-  font-weight: bold;
- }
 
  footer {
     display: flex;
     margin: auto;
     flex-direction: column;
   }
+  
+h3 {
+    color: rgb(50, 50, 107);
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    margin-top: 14px;
+}
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-top: 5px;
-    margin-bottom: 15px;
-  }
-  
-  input[type=submit] {
-    background-color: #3A3C35;
-    color: white;
-    padding: 12px 20px;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #3A3C35;
-  }
-  
-  .Contact-Form {
-    border-radius: 5px;
-    padding: 20px;
-    width: 100%;
-    display: flex;
-  }
+#footerimage3 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 118px;
+    max-height: 88px;
+}
 
 .footer-p {
 max-height: 50px;
