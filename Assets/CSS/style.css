@@ -34,6 +34,7 @@ html, body
   .header li a {
     display: block;
     padding: 20px 20px;
+    opacity: 80%;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
   }
@@ -47,13 +48,14 @@ html, body
     float: left;
     font-size: 40px;
     margin: 15px;
-    opacity: 85%;
+    opacity: 80%;
     padding: 10px 20px;
     text-decoration: none;
   }
 
   #menubtn {
     background-color: #f4f4f4;
+    opacity: 80%;
   }
   
   .logo {
@@ -61,6 +63,7 @@ html, body
   }
   .header .menu {
     clear: both;
+    opacity: 80%;
     max-height: 0;
     transition: max-height .2s ease-out;
   }
@@ -70,6 +73,7 @@ html, body
     display: inline-block;
     background-color: #f4f4f4;
     float: right;
+    margin: 14px;
     padding: 28px 20px;
     position: relative;
     user-select: none;
@@ -101,6 +105,7 @@ html, body
   
   .header .menu-icon .navicon:after {
     top: -5px;
+    
   }
   .header .menu-btn {
     display: none;
@@ -356,6 +361,8 @@ img {
 .Books {
     display: inline-flex;
     font-family: 'Merriweather',serif;
+    position: relative;
+    top: -58px;
 }
 #book1, #book2, #book3 {
     max-height: 200px;
@@ -413,4 +420,9 @@ h3 {
 
 .footer-p {
 max-height: 50px;
+}
+
+.BookHeading {
+    width: 100%;
+    max-height: 50px;
 }
