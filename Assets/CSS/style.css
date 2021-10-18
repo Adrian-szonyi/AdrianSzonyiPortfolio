@@ -44,7 +44,7 @@ html, body
   .header .logo {
     display: block;
     float: left;
-    font-size: 2em;
+    font-size: 18px;
     padding: 10px 20px;
     text-decoration: none;
   }
@@ -210,7 +210,7 @@ a {
 #about-me {
     display: flex;
     font-family: 'Merriweather',serif;
-    font-size: medium;
+    font-size: 18px;
     flex-wrap: wrap;
     top: 100px;
     align-items: center;
@@ -245,7 +245,6 @@ a {
     margin: 20px;
     font-family: 'Merriweather',serif;
     text-align: left;
-    font-size: medium;
     max-width: 650px;
     font-size: 18px;
     padding: 4px;
@@ -267,7 +266,7 @@ section {
     display: flex;
     font-family: 'Merriweather',serif;
     flex-wrap: wrap;
-    font-size: medium;
+    font-size: 18px;
 }
 
 
@@ -283,7 +282,8 @@ section {
 
 #image3 {
     position: relative;
-    width: 1000px;
+    width: fit-content;
+    height: fit-content;
     padding-right: 10px;
     margin-right: 0;
     margin-left: auto;
@@ -308,13 +308,13 @@ left: 0px;
 .row2 {
     display: inline-flex;
     font-family: 'Merriweather',serif;
-    font-size: medium;
+    font-size: 18px;
 }
 
 #funnighttext {
     color:rgb(50, 50, 107);
     margin-top: auto;
-    font-size: medium;
+    font-size: 18px;
 
 }
 
@@ -343,9 +343,10 @@ img {
     font-family: 'Merriweather',serif;
     margin: 20px;
     border-width: medium;
-    font-size: medium;
+    font-size: 18px;
     border: solid, 5px;
     border-radius: 1rem;
+    width: 100%;
     border-color: rgb(50, 50, 107);
 }
 
@@ -397,7 +398,7 @@ h3 {
     text-align: center;
     font-family: 'Merriweather',serif;
     margin-top: 14px;
-    font-size: medium;
+    font-size: 18px;
 }
 
 #footerimage3 {
