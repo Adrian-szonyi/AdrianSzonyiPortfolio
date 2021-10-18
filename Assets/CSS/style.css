@@ -23,7 +23,8 @@ html, body
   }
 
   .header ul {
-    margin: 0;
+    margin: 15px;
+    font-size: 25px;
     padding: 0;
     list-style: none;
     overflow: hidden;
@@ -44,7 +45,9 @@ html, body
   .header .logo {
     display: block;
     float: left;
-    font-size: 18px;
+    font-size: 40px;
+    margin: 15px;
+    opacity: 85%;
     padding: 10px 20px;
     text-decoration: none;
   }
@@ -149,7 +152,7 @@ header {
     background-image: url(https://images.pexels.com/photos/7014946/pexels-photo-7014946.jpeg?cs=srgb&dl=pexels-george-milton-7014946.jpg&fm=jpg);
     BACKGROUND-IMAGE: center;
     background-repeat: NO-REPEAT;
-    max-height: 500px;
+    max-height: 700px;
     background-size: cover;
     image-orientation: 100px;
     background-position: center center;
