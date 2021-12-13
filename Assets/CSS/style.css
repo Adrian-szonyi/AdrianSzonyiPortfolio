@@ -363,9 +363,13 @@ img {
     font-family: 'Merriweather',serif;
     position: relative;
     top: -58px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #book1, #book2, #book3 {
-    max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+    max-height: 300px;
     margin: 10px;
 } 
 
@@ -384,10 +388,6 @@ button:hover {
     margin-left: 28px;
 }
 
-.Books {
-margin-top: 20px;
-
-}
 .BookHeading {
   color: rgb(50, 50, 107);
   margin-top: 100px;
@@ -395,6 +395,8 @@ margin-top: 20px;
   font-size: 27px;
   font-family: 'Merriweather',serif;
   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
  footer {
